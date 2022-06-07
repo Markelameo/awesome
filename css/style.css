@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/*section tabs start*/
+
+.wrapper{
+    max-width: 1170px;
+    height: 540px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+.tabs-wrapper{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.conten_picture{
+    width: 470px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    width: unset;
+    right: 0;
+    top: 0;
+}
+
+
+
+/*section tabs end*/
+
+
+/*about-us section start*/
+
+/*mein section start*/
+
+.about-us{
+    max-width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*mein section end*/
+
+/*about-us main title start*/
+
+.about-us__main-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/*about-us main title start*/
+
+/*separator start*/
+
+.separator{
+    margin: 0 auto ;
+    width: 170px;
+    height: 0px;
+    left: 671px;
+    top: 2003px;
+    border: 1px solid #EC7979;
+}
+
+/*separator end*/
+
+/*about-us__secondary-title start*/
+
+.about-us__secondary-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 0 0 89px;
+    color: #86878B;
+}
+
+/*about-us__secondary-title end*/
+
+/*about-us__skills-list start*/
+
+.about-us__skills-list{
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+/*about-us__skills-list end*/
+
+/*skill-list__item start*/
+
+.skill-list__skill-item{
+    margin: 0;
+    display:inline-block;
+    text-align: center;
+    width: 31%;
+}
+
+.skill-list__item{
+    margin: 0;
+    display:inline-block;
+    text-align: center;
+    width: 31%;
+}
+
+.skill-item__title{
+    padding: 10px 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.skill-item__descr{
+    padding: 0 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}   
+
+/*skill-list__item end*/
+
+/*about-us section end*/
