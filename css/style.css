@@ -280,3 +280,79 @@
 }
 
 /* pricing section end*/
+
+/* customer section start*/
+
+.costumers{
+    max-width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.costumers__title{
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 50px;
+    height: 150px;
+    text-transform: uppercase;
+}
+
+.costumers__secondary-title{
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    padding-top: 40px;
+}
+
+.costumers__manager-comments{
+    width:1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.manager-comments__descr{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 370px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.costumers__managers-profiles{
+    display: flex;
+    justify-content: space-between;
+}
+.managers-profiles__item{
+    border: 2px solid black;
+    width: 370px;
+    display: flex;
+    
+}
+.managers-profile__avatar--wrapper{
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+/* customer section end*/
