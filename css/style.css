@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -337,22 +337,56 @@
     padding: 0 15px;
 }
 
+/* managers profiles start */
+
 .costumers__managers-profiles{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border: 2px solid rgb(23, 8, 238);
 }
 .managers-profiles__item{
     border: 2px solid black;
     width: 370px;
     display: flex;
-    
 }
+
+.managers-profiles__item--wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+
 .managers-profile__avatar--wrapper{
     padding-right: 30px;
-    display: flex;
-    justify-content: flex-start;
 }
 
+.managers-profile__name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 10px;
+    margin: 0;
+}
+.managers-profile__job-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid rgb(243, 4, 4);
 
+}
+
+/* managers profiles end */
+
+.managers-profile__job-title--wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.managers-profile__job-title--wrapper{
+    display: flex;
+    justify-content: space-around;
+}
 
 /* customer section end*/
